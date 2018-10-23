@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration >
+		<!-- 配置数据源和生成的代码所存放的位置 -->
+	<context id="Mysql" targetRuntime="MyBatis3Simple"
+			 defaultModelType="flat">
+		<!-- 是否生成注释 true不生成 false生成 -->
+		<commentGenerator>
+			<property name="suppressAllComments" value=" false"/>
+		</commentGenerator>
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://192.168.121.181:3309/csii_member" userId="root" password="123456" />
+		<!-- 所生成的实体类的位置默认资源包src -->
+		<javaModelGenerator targetPackage="com.csii.api.member.entities" targetProject="D:/data/shopping" />
+		<!-- 所生成的sqlMap的影射文件的位置,默认资源包src -->
+		<sqlMapGenerator targetPackage="mappers" targetProject="D:/data/shopping" />
+		<javaClientGenerator targetPackage="com.csii.member.mapper" targetProject="D:/data/shopping" type="XMLMAPPER" />
+
+		<!-- 为哪些表生成代码 tableName:表名 schema:不用填写 -->
+		<table schema="" tableName="mb_user" domainObjectName="User"/>
+		<table schema="" tableName="payment_type" domainObjectName="PaymentType"/>
+	</context>
+</generatorConfiguration>
