@@ -8,12 +8,12 @@
 		<commentGenerator>
 			<property name="suppressAllComments" value=" false"/>
 		</commentGenerator>
-		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://192.168.121.181:3309/csii_member" userId="root" password="123456" />
+		<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://192.168.121.181:3309/suzl_member" userId="root" password="123456" />
 		<!-- 所生成的实体类的位置默认资源包src -->
-		<javaModelGenerator targetPackage="com.csii.api.member.entities" targetProject="D:/data/shopping" />
+		<javaModelGenerator targetPackage="com.suzl.api.member.entities" targetProject="D:/data/shopping" />
 		<!-- 所生成的sqlMap的影射文件的位置,默认资源包src -->
 		<sqlMapGenerator targetPackage="mappers" targetProject="D:/data/shopping" />
-		<javaClientGenerator targetPackage="com.csii.member.mapper" targetProject="D:/data/shopping" type="XMLMAPPER" />
+		<javaClientGenerator targetPackage="com.suzl.member.mapper" targetProject="D:/data/shopping" type="XMLMAPPER" />
 
 		<!-- 为哪些表生成代码 tableName:表名 schema:不用填写 -->
 		<table schema="" tableName="mb_user" domainObjectName="User"/>

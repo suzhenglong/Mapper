@@ -1,7 +1,7 @@
-package com.csii.mapper.services;
+package com.suzl.mapper.services;
 
-import com.csii.mapper.entities.Employee;
-import com.csii.mapper.mappers.EmployeeMapper;
+import com.suzl.mapper.entities.Employee;
+import com.suzl.mapper.mappers.EmployeeMapper;
 import org.apache.ibatis.session.RowBounds;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

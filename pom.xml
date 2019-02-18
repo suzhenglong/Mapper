@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.csii</groupId>
+    <groupId>com.suzl</groupId>
     <artifactId>Mapper</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
@@ -21,10 +21,10 @@
         <targetJavaProject>${basedir}/src/main/java</targetJavaProject>
 
         <!-- targetMapperPackage：声明MBG生成XxxMapper接口后存放的package位置 -->
-        <targetMapperPackage>com.csii.shop.mappers</targetMapperPackage>
+        <targetMapperPackage>com.suzl.shop.mappers</targetMapperPackage>
 
         <!-- targetModelPackage：声明MBG生成实体类后存放的package位置 -->
-        <targetModelPackage>com.csii.shop.entities</targetModelPackage>
+        <targetModelPackage>com.suzl.shop.entities</targetModelPackage>
 
         <!-- targetResourcesProject：声明存放资源文件和XML配置文件的目录位置 -->
         <targetResourcesProject>${basedir}/src/main/resources</targetResourcesProject>

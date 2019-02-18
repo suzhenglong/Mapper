@@ -1,6 +1,6 @@
-package com.csii.mapper.services;
+package com.suzl.mapper.services;
 
-import com.csii.mapper.entities.Employee;
+import com.suzl.mapper.entities.Employee;
 import org.apache.ibatis.session.RowBounds;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;

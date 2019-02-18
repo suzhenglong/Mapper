@@ -1,4 +1,4 @@
-package com.csii.shop.entities;
+package com.suzl.shop.entities;
 
 import javax.persistence.*;
 

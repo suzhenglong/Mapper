@@ -29,11 +29,11 @@
     <!-- 原始全类名：org.mybatis.spring.mapper.MapperScannerConfigurer -->
     <!-- 通用Mapper使用：tk.mybatis.spring.mapper.MapperScannerConfigurer -->
     <bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
-        <property name="basePackage" value="com.csii.mapper.mappers"/>
+        <property name="basePackage" value="com.suzl.mapper.mappers"/>
     </bean>
 
     <!-- 配置Service自动扫描的包 -->
-    <context:component-scan base-package="com.csii.mapper.services"/>
+    <context:component-scan base-package="com.suzl.mapper.services"/>
 
     <!-- 配置声明式事务 -->
     <bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">

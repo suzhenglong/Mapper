@@ -1,6 +1,6 @@
-package com.csii.shop.mappers;
+package com.suzl.shop.mappers;
 
-import com.csii.shop.entities.Emp;
+import com.suzl.shop.entities.Emp;
 import tk.mybatis.mapper.common.Mapper;
 
 public interface EmpMapper extends Mapper<Emp> {

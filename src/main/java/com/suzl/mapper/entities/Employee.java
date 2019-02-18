@@ -1,6 +1,5 @@
-package com.csii.mapper.entities;
+package com.suzl.mapper.entities;
 
-import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;

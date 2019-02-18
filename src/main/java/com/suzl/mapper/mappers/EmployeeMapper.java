@@ -1,6 +1,6 @@
-package com.csii.mapper.mappers;
+package com.suzl.mapper.mappers;
 
-import com.csii.mapper.entities.Employee;
+import com.suzl.mapper.entities.Employee;
 import tk.mybatis.mapper.common.Mapper;
 
 /**
